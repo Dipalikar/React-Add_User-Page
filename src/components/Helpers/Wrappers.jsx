@@ -1,7 +1,6 @@
 
 const Wrappers=(props) =>{
-    <div>
-        {props.children}
-    </div>
+    return props.children;
+    
 }
 export default Wrappers;
